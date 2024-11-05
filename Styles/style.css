@@ -66,7 +66,7 @@ body{
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .all{
@@ -76,12 +76,69 @@ body{
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 48px;
+    margin-top: 16px;
 }
 .new-bg{
     width: 802.9px;
     height: 500px;
 }
+/* party section  */
 
+.party{
+    background-image: url("../resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    position: relative;
+    background-size: cover;
+    
+}
+.party-bg-gdt{
+    position: absolute;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+}
+.party-continer{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    padding: 50px 120px;
+    border-radius: 16px;
+}
+.party-item{
+    z-index: 9999;
+}
+.Welcome{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 7.04px;
+    margin-bottom: 8px;
+}
+.pera{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.join{
+    color: #FFF;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 0px  32px  ;
+}
 
 
 
