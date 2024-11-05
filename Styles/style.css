@@ -3,4 +3,59 @@ body{
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+  margin: 50px 140px;
 }
+.header{
+    position: relative;
+}
+.bg{
+    width: 100%;
+}
+.bg-gdt{
+    position: absolute;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+.title{
+    text-align: center;
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    width: 632px;
+    z-index: 99999;
+}
+.happy{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.new{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 95px;
+    margin-top: 10px;
+    line-height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
