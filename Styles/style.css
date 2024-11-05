@@ -46,6 +46,41 @@ body{
     line-height: 70px;
 }
 
+/* <!-- 65% off section --> */
+.off{
+    margin: 50px;
+    text-align: center;
+}
+
+.off-title{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.holiday{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.all{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.new-bg{
+    width: 802.9px;
+    height: 500px;
+}
 
 
 
