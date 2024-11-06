@@ -4,6 +4,7 @@ body{
   font-weight: weight;
   font-style: normal;
   margin: 50px 140px;
+
 }
 .header{
     position: relative;
@@ -206,6 +207,8 @@ body{
     gap: 40px   ;
     justify-content: space-around;
     align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 .coming{
     width: 593px;
@@ -243,11 +246,58 @@ body{
     width: 475px;
     padding-left: 60px;
 }
+/* holidays sell section  */
+.holidays-info{
+
+}
+
+/* portfolio section */
+.portfolio{
+    width: 100%;
+    margin: 100 140px  ;
+}
+.portfolio-title{
+    text-align: left;
+    width: 896px;;
+}
+.gift{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.awesome{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+.portfolio-pera{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+    margin-bottom: 48px;
+}
 
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 1fr);  
+    gap: 16px; 
 
-
-
+  }
+  
+.grid-item {
+    border-radius: 16px;  
+    justify-items: auto;
+    width: 100%;
+  }
+  
 
 
 
