@@ -3,11 +3,12 @@ body{
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  margin: 50px 140px;
+  /* margin: 50px 140px; */
 
 }
 .header{
     position: relative;
+    margin: 50px 140px;
 }
 .bg{
     width: 100%;
@@ -49,8 +50,9 @@ body{
 
 /* <!-- 65% off section --> */
 .off{
-    margin: 50px;
+    /* margin: 50px; */
     text-align: center;
+    margin: 50px 140px;
 }
 
 .off-title{
@@ -91,6 +93,7 @@ body{
     border-radius: 16px;
     position: relative;
     background-size: cover;
+    margin: 50px 140px;
     
 }
 .party-bg-gdt{
@@ -143,11 +146,12 @@ body{
 }
 /* Event section  */
 .event{
-    width: 100%;
+    margin: 50px 140px;
+    /* width: 100%; */
     height: 482px;
     /* padding: 80px 0px; */
     display: flex;
-    margin: 50px 0px;
+    /* margin: 50px 0px; */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -203,6 +207,7 @@ body{
 
 /* comming-soon section  */
 .comming-soon{
+    margin: 50px 140px;
     display: flex;
     gap: 40px   ;
     justify-content: space-around;
@@ -247,13 +252,63 @@ body{
     padding-left: 60px;
 }
 /* holidays sell section  */
+.holiday-section{
+    margin: 50px 140px;
+}
 .holidays-info{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.what-is{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.sale{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.span-seal{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.holiday-pera{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.60);
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+.discount{
 
 }
 
 /* portfolio section */
 .portfolio{
-    width: 100%;
+    margin: 50px 140px;
+    /* width: 100%; */
     /* margin: 100 140px  ; */
     margin-top: 100px;
     margin-bottom: 100px;
@@ -302,10 +357,11 @@ body{
 
   /* subscribe section  */
 .subscribe{
+    margin: 50px 140px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    /* width: 100%; */
     height: 616px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
@@ -366,7 +422,64 @@ label{
     margin-left: -6px;
 }
 
-  
+/* footer section  */
+footer{
+    width: 100%;
+    /* height: 609px; */
+    background: #070211;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 140px;
+    
+    
+}
+.footer-address{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.ph-num{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    align-items: center;
+}
+
+.footer-icon{
+    text-align: center;
+    padding: 24px 140px;
+    
+}
+.icon-amag{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+hr{
+    height: .5px;
+    background: rgba(179, 155, 155, 0.15);
+}
+
+.copyright{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
 
 
 
