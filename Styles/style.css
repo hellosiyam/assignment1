@@ -301,9 +301,7 @@ body{
     margin-top: 24px;
     margin-bottom: 64px;
 }
-.discount{
 
-}
 .ledy-discount{
     display: flex;
     align-items: end;
@@ -333,7 +331,9 @@ body{
     width: 100%;
 }
 
-
+.rectangle-red{
+    width: 100%;
+}
 /* portfolio section */
 .portfolio{
     margin: 50px 140px;
