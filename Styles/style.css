@@ -398,8 +398,8 @@ body{
 .subscribe-info{
     width: 896px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
 }
 .newsletter{
     color: #070211;
